@@ -1,0 +1,10 @@
+<resources>
+    <string name="facebook_app_id">InsertYourFacebookAppID</string>
+    <string name="fb_login_protocol_scheme">fbInsertYourFacebookAppID</string>
+    <string name="app_name">Facebook Login/Logout Example</string>
+    <string name="back4app_server_url">https://parseapi.back4app.com/</string>
+    <string name="back4app_app_id">InsertYourBack4AppAppID</string>
+    <string name="back4app_client_key">InsertYourBack4AppClientKey</string>
+    <string name="welcome">Welcome to my app!</string>
+    <string name="logout">Log out</string>
+</resources>
