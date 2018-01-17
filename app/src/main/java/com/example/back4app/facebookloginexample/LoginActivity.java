@@ -54,12 +54,15 @@ public class LoginActivity extends AppCompatActivity {
                     @Override
                     public void done(ParseUser user, ParseException err) {
                         if (err != null) {
+                            dlg.dismiss();
+                            ParseUser.logOut();
                             Log.e("err", "err", err);
                         }
                         if (user == null) {
+                            dlg.dismiss();
+                            ParseUser.logOut();
                             Toast.makeText(LoginActivity.this, "The user cancelled the Facebook login.", Toast.LENGTH_LONG).show();
                             Log.d("MyApp", "Uh oh. The user cancelled the Facebook login.");
-                            dlg.dismiss();
                         } else if (user.isNew()) {
                             dlg.dismiss();
                             Toast.makeText(LoginActivity.this, "User signed up and logged in through Facebook.", Toast.LENGTH_LONG).show();
