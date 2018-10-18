@@ -25,7 +25,7 @@
 
         <provider
             android:name="com.facebook.FacebookContentProvider"
-            android:authorities="com.facebook.app.FacebookContentProvider249375085751464"
+            android:authorities="com.facebook.app.FacebookContentProviderPASTE_YOUR_FACEBOOK_APP_ID_HERE"
             android:exported="true" />
         <activity android:name=".LoginActivity">
             <intent-filter>
