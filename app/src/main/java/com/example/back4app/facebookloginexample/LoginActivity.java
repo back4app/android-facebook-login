@@ -16,11 +16,10 @@ import com.facebook.GraphRequest;
 import com.facebook.GraphResponse;
 
 import com.parse.LogInCallback;
-import com.parse.Parse;
 import com.parse.ParseException;
-import com.parse.ParseFacebookUtils;
 import com.parse.ParseUser;
 import com.parse.SaveCallback;
+import com.parse.facebook.ParseFacebookUtils;
 
 import java.lang.String;
 import java.util.*;
@@ -33,8 +32,6 @@ public class LoginActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Parse.initialize(this);
-        ParseFacebookUtils.initialize(this);
         setContentView(R.layout.activity_login);
 
         final Button login_button = findViewById(R.id.login_button);

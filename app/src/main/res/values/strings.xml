@@ -4,8 +4,8 @@
     <string name="welcome">Welcome to my app!</string>
     <string name="logout">Log out</string>
     <!-- Change the following strings as required -->
-    <string name="facebook_app_id">PASTE_YOUR_FACEBOOK_APP_ID</string>
-    <string name="fb_login_protocol_scheme">fbPASTE_YOUR_FACEBOOK_APP_ID</string>
-    <string name="back4app_app_id">PASTE_YOUR_APP_ID</string>
-    <string name="back4app_client_key">PASTE_YOUR_CLIENT_KEY</string>
+    <string name="facebook_app_id">249375085751464</string>
+    <string name="fb_login_protocol_scheme">fb249375085751464</string>
+    <string name="back4app_app_id">wVLW9Y4Hw2cUPOZDHhEyCDQXAY1ERfZCOqWWgmzQ</string>
+    <string name="back4app_client_key">jCC3p0dZygjj4YGyKResLjP9tBEHEEmpg32guBYi</string>
 </resources>
